@@ -1,8 +1,7 @@
-# This file should enable our Ethernet interface
+# This file will enable the Ethernet interface
 network:
-  version:2
-  renderer:networkd
+  version: 2
+  renderer: networkd
   ethernets:
     enp1s0:
-      dhcp4:true
-
+      dhcp4: true
